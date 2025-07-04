@@ -74,7 +74,7 @@ color: black;
 }
 }
 
-#segundoparagrafo, #quartoparagrafo {
+#segundoparagrafo {
 background: black url(imagens/background001.jpg) center center no-repeat
 fixed;
 background-size: cover;
@@ -93,10 +93,23 @@ background-size: cover;
 }
 
 #quartoparagrafo{
-    background: black url(imagens/background002.jpg) center center no-repeat
+ background: black url(imagens/background002.jpg) center center no-repeat
 fixed;
 background-size: cover;
+
+
+& p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.452);
+    color: white;
+    
+    font-family: "Sriracha", cursive;
+    font-weight: 400;
+    font-style: normal;
+    }
 }
+
 
 footer {
 background-color: black;

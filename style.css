@@ -75,10 +75,9 @@ color: black;
 }
 
 #segundoparagrafo {
-background: black url(imagens/background001.jpg) right center no-repeat
+background: black url(imagens/background001.jpg) center center no-repeat
 fixed;
-
-
+background-size: cover;
 
 & p {
     display: inline-block;
